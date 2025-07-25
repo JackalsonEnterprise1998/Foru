@@ -1,0 +1,46 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="#FFFFFF"
+		android:gravity="center_horizontal|bottom"
+		android:orientation="vertical">
+		<ImageView
+			android:id="@+id/imageview2"
+			android:layout_width="100dp"
+			android:layout_height="100dp"
+			android:src="@drawable/whatsappicon"
+			android:scaleType="fitXY" />
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="wrap_content"
+			android:layout_height="200dp"
+			android:padding="8dp"
+			android:orientation="vertical" />
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="from"
+			android:textSize="12sp"
+			android:textColor="#607D8B" />
+		<TextView
+			android:id="@+id/textview2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Meta"
+			android:textSize="16sp"
+			android:textStyle="bold"
+			android:textColor="#00C853" />
+	</LinearLayout>
+</LinearLayout>
